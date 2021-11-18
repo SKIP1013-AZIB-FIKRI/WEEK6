@@ -1,0 +1,22 @@
+package myScANNER;
+import java.util.Scanner;
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int no1, answer;
+		System.out.print("Enter number that you want");
+		no1 = input.nextInt();
+		
+		
+		if (no1%5 != 0 ) {
+			System.out.print("This is odd number");
+		}
+		else if (no1%2 == 0){
+			System.out.print("This is even number");
+		} 
+			
+	}
+
+}
